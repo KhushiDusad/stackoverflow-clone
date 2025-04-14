@@ -1,0 +1,7 @@
+.stack-index{
+    width:100%
+}
+.stack-index-content{
+    display: flex;
+    flex-direction: row;
+}

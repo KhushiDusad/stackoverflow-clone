@@ -1,0 +1,59 @@
+.main-desc {
+  display: flex;
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  font-size: small;
+}
+
+.info > p{
+  color: rgba(0, 0, 0, 0.4);
+  margin: 0 10px;
+}
+
+.info > p > span {
+  color: rgba(0, 0, 0, 0.8);
+  margin: 0 5px;
+}
+
+.arrow {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.MuiSvgIcon-root {
+  color: rgba(0, 0, 0, 0.25);
+  font-size: large;
+  margin: 5px 0;
+}
+
+.author{
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-details{
+  margin-top:5px;
+}
+
+.button{
+    max-width: fit-content;
+}
+
+.content-wrapper>div{
+  background-color: rgba(228, 228, 228, 0.564);
+  border-radius: 10px;
+  padding:5px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.content-wrapper>p>img{
+  width: 90%;
+  height: auto;
+  margin: 5px;
+}
