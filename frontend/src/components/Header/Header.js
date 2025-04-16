@@ -4,7 +4,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import { Link, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { selectUser, logout } from "../../features/userSlice"; // update path as needed
+import { selectUser, logout } from "../../features/userSlice";
 
 function Header() {
   const user = useSelector(selectUser);
